@@ -1,0 +1,25 @@
+{
+    "name": "aquy/yii2-setting",
+    "type": "yii2-extension",
+    "description": "Настройки, хранящиеся в базе данных",
+    "keywords": ["yii2", "setting"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/aquy/yii2-setting/issues",
+        "source": "https://github.com/aquy/yii2-setting"
+    },
+    "authors": [
+        {
+            "name": "Алексей Лихачев",
+            "email": "aquy@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aquy\\setting\\": ""
+        }
+    }
+}
